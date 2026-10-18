@@ -3,9 +3,9 @@ using USS.ProjectTemplate.Web.Model;
 
 namespace USS.ProjectTemplate.Web.Data
 {
-    public class USSKanakkeduDBContext : DbContext
+    public class MainDBContext : DbContext
     {
-        public USSKanakkeduDBContext(DbContextOptions<USSKanakkeduDBContext> options)
+        public MainDBContext(DbContextOptions<MainDBContext> options)
             : base(options)
         {
 

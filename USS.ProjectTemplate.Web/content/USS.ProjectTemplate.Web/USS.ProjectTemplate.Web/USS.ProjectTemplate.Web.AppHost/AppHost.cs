@@ -1,6 +1,6 @@
 var builder = DistributedApplication.CreateBuilder(args);
 
-var apiService = builder.AddProject<Projects.USS_ProjectTemplate_Web_ApiService>("usskanakkedu")
+var apiService = builder.AddProject<Projects.USS_ProjectTemplate_Web_ApiService>("apiService")
     .WithHttpHealthCheck("/health");
 
 builder.AddProject<Projects.USS_ProjectTemplate_Web_Web>("webfrontend")

@@ -18,10 +18,6 @@
     <ProjectReference Include="..\USS.ProjectTemplate.Web.ServiceDefaults\USS.ProjectTemplate.Web.ServiceDefaults.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
 
 
 </Project>

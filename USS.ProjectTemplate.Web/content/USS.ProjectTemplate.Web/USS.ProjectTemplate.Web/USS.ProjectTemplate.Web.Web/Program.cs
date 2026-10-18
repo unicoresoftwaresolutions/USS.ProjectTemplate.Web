@@ -14,9 +14,9 @@ builder.Services.AddRazorComponents()
 builder.Services.AddOutputCache();
 
 
-builder.Services.AddHttpClient<USSKanakkeduHTTPClient>(client =>
+builder.Services.AddHttpClient<MainHTTPClient>(client =>
 {
-    client.BaseAddress = new("https+http://usskanakkedu/API/");
+    client.BaseAddress = new("https+http://apiService/API/");
 });
 
 builder.Services.AddServiceDI();

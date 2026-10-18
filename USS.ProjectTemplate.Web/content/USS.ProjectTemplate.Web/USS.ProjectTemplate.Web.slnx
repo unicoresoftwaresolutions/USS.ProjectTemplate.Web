@@ -1,13 +1,29 @@
+
 <Solution>
-  <Project Path="USS.ProjectTemplate.Web/USS.ProjectTemplate.Web.ApiService/USS.ProjectTemplate.Web.ApiService.csproj" />
-  <Project Path="USS.ProjectTemplate.Web/USS.ProjectTemplate.Web.AppHost/USS.ProjectTemplate.Web.AppHost.csproj" />
-  <Project Path="USS.ProjectTemplate.Web/USS.ProjectTemplate.Web.Business.Interface/USS.ProjectTemplate.Web.Business.Interface.csproj" />
-  <Project Path="USS.ProjectTemplate.Web/USS.ProjectTemplate.Web.Business/USS.ProjectTemplate.Web.Business.csproj" />
-  <Project Path="USS.ProjectTemplate.Web/USS.ProjectTemplate.Web.Data.Interface/USS.ProjectTemplate.Web.Data.Interface.csproj" />
-  <Project Path="USS.ProjectTemplate.Web/USS.ProjectTemplate.Web.Data/USS.ProjectTemplate.Web.Data.csproj" />
-  <Project Path="USS.ProjectTemplate.Web/USS.ProjectTemplate.Web.Model/USS.ProjectTemplate.Web.Model.csproj" />
-  <Project Path="USS.ProjectTemplate.Web/USS.ProjectTemplate.Web.Service/USS.ProjectTemplate.Web.Service.csproj" />
-  <Project Path="USS.ProjectTemplate.Web/USS.ProjectTemplate.Web.ServiceDefaults/USS.ProjectTemplate.Web.ServiceDefaults.csproj" />
-  <Project Path="USS.ProjectTemplate.Web/USS.ProjectTemplate.Web.Test.Console/USS.ProjectTemplate.Web.Test.Console.csproj" />
-  <Project Path="USS.ProjectTemplate.Web/USS.ProjectTemplate.Web.Web/USS.ProjectTemplate.Web.Web.csproj" />
+  <Folder Name="/Interface/">
+    <Project Path="USS.ProjectTemplate.Web.Business.Interface/USS.ProjectTemplate.Web.Business.Interface.csproj" />
+    <Project Path="USS.ProjectTemplate.Web.Data.Interface/USS.ProjectTemplate.Web.Data.Interface.csproj" />
+  </Folder>
+  <Folder Name="/Library/">
+    <Project Path="USS.ProjectTemplate.Web.Business/USS.ProjectTemplate.Web.Business.csproj" />
+    <Project Path="USS.ProjectTemplate.Web.Data/USS.ProjectTemplate.Web.Data.csproj" />
+    <Project Path="USS.ProjectTemplate.Web.Model/USS.ProjectTemplate.Web.Model.csproj"  />
+    <Project Path="USS.ProjectTemplate.Web.Service/USS.ProjectTemplate.Web.Service.csproj"/>
+    <Project Path="USS.ProjectTemplate.Web.ServiceDefaults/USS.ProjectTemplate.Web.ServiceDefaults.csproj" />
+  </Folder>
+  <Folder Name="/Projects/">
+    <Project Path="USS.ProjectTemplate.Web.ApiService/USS.ProjectTemplate.Web.ApiService.csproj" />
+    <Project Path="USS.ProjectTemplate.Web.AppHost/USS.ProjectTemplate.Web.AppHost.csproj"  />
+    <Project Path="USS.ProjectTemplate.Web.SQL/USS.ProjectTemplate.Web.SQL.sqlproj" >
+      <Build />
+      <Deploy />
+    </Project>
+    <Project Path="USS.ProjectTemplate.Web.Web/USS.ProjectTemplate.Web.Web.csproj" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path=".template.config/template.json" />
+  </Folder>
+  <Folder Name="/Test/">
+    <Project Path="USS.ProjectTemplate.Web.Test.Console/USS.ProjectTemplate.Web.Test.Console.csproj" />
+  </Folder>
 </Solution>

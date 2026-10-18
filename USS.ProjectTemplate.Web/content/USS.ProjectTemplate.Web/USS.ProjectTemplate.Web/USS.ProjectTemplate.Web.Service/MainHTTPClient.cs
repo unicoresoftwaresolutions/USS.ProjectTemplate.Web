@@ -1,9 +1,9 @@
 ﻿namespace USS.ProjectTemplate.Web.Service
 {
-    public class USSKanakkeduHTTPClient
+    public class MainHTTPClient
     {
         public readonly HttpClient client;
-        public USSKanakkeduHTTPClient(HttpClient http)
+        public MainHTTPClient(HttpClient http)
         {
             client = http;
         }

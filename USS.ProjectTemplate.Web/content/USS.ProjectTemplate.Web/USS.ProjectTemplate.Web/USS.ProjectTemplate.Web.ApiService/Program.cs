@@ -23,10 +23,10 @@ builder.Services.AddProblemDetails();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 
-builder.Services.AddDbContext<USSKanakkeduDBContext>(option =>
+builder.Services.AddDbContext<MainDBContext>(option =>
 {
 
-    option.UseSqlServer(builder.Configuration.GetConnectionString("KanakkeduDBConnection"));
+    option.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 
 });
 
@@ -62,10 +62,7 @@ app.Use(async (context, next) =>
 });
 
 app.MapControllers();
-app.MapGet("/test01", x =>
-{
-    return x.Response.WriteAsync("this is test page");
-});
+
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
@@ -77,7 +74,3 @@ app.MapDefaultEndpoints();
 
 app.Run();
 
-internal record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}
