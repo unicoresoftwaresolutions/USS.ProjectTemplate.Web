@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\USS.ProjectTemplate.Web.Data.Interface\USS.ProjectTemplate.Web.Data.Interface.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="UnicoreSoftwareSolutions.Base.Data" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,28 @@
+<Solution>
+  <Folder Name="/Interface/">
+    <Project Path="USS.ProjectTemplate.Web.Business.Interface/USS.ProjectTemplate.Web.Business.Interface.csproj" Id="b80f7158-d60d-4de8-9c30-1d63f57a5a8d" />
+    <Project Path="USS.ProjectTemplate.Web.Data.Interface/USS.ProjectTemplate.Web.Data.Interface.csproj" Id="a0d54ddd-322b-4f4f-81bc-27a7d3b32e0c" />
+  </Folder>
+  <Folder Name="/Library/">
+    <Project Path="USS.ProjectTemplate.Web.Business/USS.ProjectTemplate.Web.Business.csproj" Id="ce920532-7b24-47ec-bcbe-7ba1999b3871" />
+    <Project Path="USS.ProjectTemplate.Web.Data/USS.ProjectTemplate.Web.Data.csproj" Id="b052c98d-eaf4-4c6c-b28f-524f208dd625" />
+    <Project Path="USS.ProjectTemplate.Web.Model/USS.ProjectTemplate.Web.Model.csproj" Id="a83a7f19-2015-40ab-aaaa-29826048d4b5" />
+    <Project Path="USS.ProjectTemplate.Web.Service/USS.ProjectTemplate.Web.Service.csproj" Id="48ab7a89-30ce-4173-9664-ebf656730f88" />
+    <Project Path="USS.ProjectTemplate.Web.ServiceDefaults/USS.ProjectTemplate.Web.ServiceDefaults.csproj" />
+  </Folder>
+  <Folder Name="/Projects/">
+    <Project Path="USS.ProjectTemplate.Web.ApiService/USS.ProjectTemplate.Web.ApiService.csproj" />
+    <Project Path="USS.ProjectTemplate.Web.AppHost/USS.ProjectTemplate.Web.AppHost.csproj" Id="079131a1-89e7-489c-bb3b-9895c4b61991" />
+    <Project Path="USS.ProjectTemplate.Web.SQL/USS.ProjectTemplate.Web.SQL.sqlproj" Id="0ab02db7-dafe-4b3b-b99b-8a8118b180ae">
+      <Build />
+      <Deploy />
+    </Project>
+    <Project Path="USS.ProjectTemplate.Web.Web/USS.ProjectTemplate.Web.Web.csproj" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path=".template.config/template.json" />
+  </Folder>
+  <Folder Name="/Test/">
+    <Project Path="USS.ProjectTemplate.Web.Test.Console/USS.ProjectTemplate.Web.Test.Console.csproj" Id="d0e954e1-c9d8-4aed-a482-9151bc647e64" />
+  </Folder>
+</Solution>

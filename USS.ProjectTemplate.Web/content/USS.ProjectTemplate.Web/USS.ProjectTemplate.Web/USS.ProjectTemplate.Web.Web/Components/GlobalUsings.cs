@@ -1,0 +1,1 @@
+﻿global using USS.ProjectTemplate.Web.Service;
